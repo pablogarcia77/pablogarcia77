@@ -17,12 +17,12 @@ export class Dev{
         {
             degree: "University Programmer Analyst",
             years: "2019-2021",
-            status: "In Progress"
+            status: "Finished"
         }
     ]
     code: {
         frontend: ["HTML","CSS","JavaScript","Bootstrap","Materialize","Angular","React"]
-        backend: ["NodeJS","Express","NestJS","PHP","Java"]
+        backend: ["NodeJS","Express","NestJS","PHP","Java","Springboot"]
         database: ["MySQL","PostgreSQL"]
         tools: ["Git","Trello","Figma"]
         misc: ["GNU/Linux","Scrum","Kanban"]
