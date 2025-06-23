@@ -3,9 +3,9 @@
 export class Dev{
     name: "Pablo"
     lastName: "Garcia"
-    age: 28
+    age: 32
     city: "San Pedro de Jujuy"
-    linkedin: "https://www.linkedin.com/in/pablo-garcia-jujuy/"
+    linkedin: "https://www.linkedin.com/in/pablo-garcia-dev"
     facebook: "https://www.facebook.com/pablo.garcia.pr"
     mail: "pablogarcia77@hotmail.com.ar"
     education: [
@@ -22,12 +22,17 @@ export class Dev{
     ]
     code: {
         frontend: ["HTML","CSS","JavaScript","Bootstrap","Materialize","Angular","React"]
-        backend: ["NodeJS","Express","NestJS","PHP","Java","Springboot"]
-        database: ["MySQL","PostgreSQL"]
-        tools: ["Git","Trello","Figma"]
+        backend: ["Java","Springboot","Camel","NodeJS","Express","NestJS","PHP"]
+        database: ["SQL Server","MySQL","PostgreSQL"]
+        tools: ["Jira","Git","Trello","Figma"]
+        devops-tools: ["Docker","Kubernetes","Openshift","ArgoCICD"]
         misc: ["GNU/Linux","Scrum","Kanban"]
     }
     projects: [
+        {
+            name: "GeaData",
+            techs: ["Angular","PHP","MySQL","Angular Material"],
+        },
         {
             name: "Clinical Voice Box",
             techs: ["Angular","PHP","MySQL","MaterializeCSS"],
